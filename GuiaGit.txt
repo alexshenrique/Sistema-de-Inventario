@@ -1,0 +1,21 @@
+Guia rápido de Git (versionamento)
+====================================
+
+1. Verificar status dos arquivos:
+   git status
+
+2. Adicionar arquivos alterados:
+   git add .
+   # ou para adicionar arquivos específicos:
+   git add caminho/do/arquivo
+
+3. Fazer commit das alterações:
+   git commit -m "Mensagem descritiva do que foi alterado"
+
+4. Enviar para o GitHub:
+   git push
+
+5. (Opcional) Puxar alterações do repositório remoto:
+   git pull
+
+Dica: Sempre faça commit e push após alterações importantes (scripts, dependências, código, instruções, etc). 
