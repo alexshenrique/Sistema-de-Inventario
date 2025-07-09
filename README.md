@@ -119,19 +119,6 @@ Para mais detalhes, consulte a documentação de cada pasta.
    pytest
    ```
 
-## Deploy
-
-- O backend pode ser publicado em serviços como Render.com, Heroku, etc.
-- Use Gunicorn para rodar o backend em produção:
-  ```bash
-  gunicorn run:app
-  ```
-- O frontend pode ser publicado no Vercel, Netlify, etc. Gere o build com:
-  ```bash
-  cd frontend-equipamentos-vite
-  npm run build
-  ```
-
 ## Variáveis de ambiente
 
 - **Backend:**
