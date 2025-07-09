@@ -4,7 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm run start-backend\" \"vite\"",
+    "dev": "vite",
+    "dev:win": "concurrently \"cd ../sistema-equipamentos-novo & venv\\Scripts\\activate && flask run\" \"vite\"",
+    "dev:unix": "concurrently \"cd ../sistema-equipamentos-novo && source venv/bin/activate && flask run\" \"vite\"",
+    "dev:all": "npm run dev:win || npm run dev:unix",
     "start-backend": "cd ../sistema-equipamentos-novo & venv\\Scripts\\python.exe run.py",
     "build": "vite build",
     "lint": "eslint .",

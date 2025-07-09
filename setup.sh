@@ -4,7 +4,7 @@
 # Uso: bash setup.sh
 
 set -e
-
+print("Iniciando run.py")
 # Backend
 cd sistema-equipamentos-novo
 
