@@ -4,7 +4,7 @@ Este projeto é um sistema completo para gestão de equipamentos de TI, com back
 
 ## Descrição do Projeto
 
-O sistema permite o controle eficiente de equipamentos de tecnologia da informação, incluindo cadastro, edição, exclusão, controle de manutenções, geração de relatórios e dashboards interativos. Ideal para equipes de TI que precisam gerenciar ativos, manutenções e usuários de forma centralizada.
+O sistema permite o controle eficiente de equipamentos de informática, incluindo cadastro, edição, exclusão, controle de manutenções, geração de relatórios e dashboards interativos. Ideal para equipes de TI que precisam gerenciar ativos, manutenções e usuários de forma centralizada.
 
 ## Funcionalidades
 
