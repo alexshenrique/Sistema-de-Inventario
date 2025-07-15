@@ -32,9 +32,6 @@ O sistema permite o controle eficiente de equipamentos de tecnologia da informa�
   - Vite
   - Material UI
   - Chart.js
-- **Outros:**
-  - Render.com (deploy)
-  - Gunicorn (produção backend)
 
 ## Estrutura do Projeto
 
