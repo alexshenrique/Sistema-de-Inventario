@@ -4,7 +4,7 @@ Este projeto é um sistema completo para gestão de equipamentos de TI, com back
 
 ## Descrição do Projeto
 
-O sistema permite o controle eficiente de equipamentos de tecnologia da informação, incluindo cadastro, edição, exclusão, controle de manutenções, geração de relatórios e dashboards interativos. Ideal para equipes de TI que precisam gerenciar ativos, manutenções e usuários de forma centralizada.
+O sistema permite o controle eficiente de equipamentos de informática, incluindo cadastro, edição, exclusão, controle de manutenções, geração de relatórios e dashboards interativos. Ideal para equipes de TI que precisam gerenciar ativos, manutenções e usuários de forma centralizada.
 
 ## Funcionalidades
 
@@ -118,19 +118,6 @@ Para mais detalhes, consulte a documentação de cada pasta.
    cd sistema-equipamentos-novo
    pytest
    ```
-
-## Deploy
-
-- O backend pode ser publicado em serviços como Render.com, Heroku, etc.
-- Use Gunicorn para rodar o backend em produção:
-  ```bash
-  gunicorn run:app
-  ```
-- O frontend pode ser publicado no Vercel, Netlify, etc. Gere o build com:
-  ```bash
-  cd frontend-equipamentos-vite
-  npm run build
-  ```
 
 ## Variáveis de ambiente
 

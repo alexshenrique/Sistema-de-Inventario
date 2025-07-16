@@ -4,7 +4,8 @@
   "description": "Este projeto é um sistema completo para gestão de equipamentos de TI, com backend em Flask (Python) e frontend em React (Vite).",
   "main": "start-all.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-all": "node start-all.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,7 @@
     "url": "https://github.com/alexshenrique/Projetos/issues"
   },
   "homepage": "https://github.com/alexshenrique/Projetos#readme",
-  "dependencies": {
+  "devDependencies": {
     "concurrently": "^9.2.0"
   }
 }
